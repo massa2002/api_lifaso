@@ -1,0 +1,7 @@
+// filepath: .gitignore
+firebase-service-account.json
+node_modules/
+.env
+.vercel
+
+vente-cafc7-firebase-adminsdk-dh66h-e968e83fb1.json
