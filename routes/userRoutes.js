@@ -3,8 +3,8 @@ const { check, validationResult } = require('express-validator');
 const UserController = require('../controllers/userController');
 const authMiddleware = require('../middlewares/authMiddleware');
 const multer = require('multer');
+const upload = multer({ storage: multer.memoryStorage() }); 
 
-const upload = multer({ storage: multer.memoryStorage() });
 
 const router = express.Router();
 
